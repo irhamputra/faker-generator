@@ -12,8 +12,8 @@ a JavaScript utility to generate an array of object of faker data. This included
 <br/>
 <br/>
 <sup>
-<a href="https://www.npmjs.com/package/@irhamputra/use-lottie" target="_blank">
-<img src="https://img.shields.io/npm/v/@irhamputra/use-lottie.svg" alt="npm package" />
+<a href="https://www.npmjs.com/package/faker-generator" target="_blank">
+<img src="https://img.shields.io/npm/v/faker-generator" alt="npm package" />
 </a>
 <a href="https://standardjs.com" target="_blank">
 <img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="npm package" />
@@ -23,7 +23,7 @@ a JavaScript utility to generate an array of object of faker data. This included
 ## Install
 
 ```bash
-npm install --save @irhamputra/faker-generator
+npm install --save faker-generator
 ```
 </div>
 
