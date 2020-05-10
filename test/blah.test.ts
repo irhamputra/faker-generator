@@ -1,4 +1,4 @@
-import { fakerGenerator } from '../index';
+import generator from '../src';
 
 describe('blah', () => {
   it('works', () => {
@@ -12,7 +12,7 @@ describe('blah', () => {
       email: "{{internet.email}}",
     };
 
-    const generate = fakerGenerator(schema, 20, 20)
+    const generate = generator(schema, 20, 20)
 
     expect(generate).toHaveLength(20);
     expect(generate).toBeCalledTimes(1);
