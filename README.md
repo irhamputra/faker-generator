@@ -29,7 +29,8 @@ npm install --save @irhamputra/faker-generator
 
 ## Usage
 ```javascript
-const { fakerGenerator } = require('faker-generator');
+const generator = require('faker-generator'); // es5
+// import generator from 'faker-generator'; for es6
 
 const schema = {
     name: "{{name.firstName}} {{name.lastName}}",
@@ -40,14 +41,14 @@ const schema = {
     email: "{{internet.email}}",
 }
 
-const data = fakerGenerator(schema, 20, 20)
+const data = generator(schema, 20, 20)
 console.log(data)
 ```
 
 ## Documentation
 
 ```javascript
-fakerGenerator(schema, min, max);
+generator(schema, min, max);
 ```
 
 * params
