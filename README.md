@@ -21,6 +21,8 @@ a JavaScript utility to generate an array of object of faker data. This included
 
 <img alt="GitHub" src="https://img.shields.io/github/license/irhamputra/faker-generator">
 
+<img alt="minizipped" src="https://badgen.net/bundlephobia/minzip/faker-generator">
+
 </sup>
 
 ## Install
